@@ -8,12 +8,12 @@ import ContextConsumer from './ContextConsumer'
 import UseContext from './UseContext'
 
 export default [
-  { title: 'Functional timeout with Ref', Component: FunctionalTimeoutWithRef },
-  { title: 'Class timeout', Component: ClassTimeout },
-  { title: 'Functional timeout', Component: FunctionalTimeout },
-  { title: 'Using context with hook', Component: UseContext},
-  { title: 'Using context with class', Component: ContextConsumer},
   { title: 'useState hook', Component: UseState },
   { title: 'Broken useState hook', Component: BrokenUseState },
   { title: 'useEffect Hook', Component: UseEffect },
+  { title: 'Class timeout', Component: ClassTimeout },
+  { title: 'Functional timeout', Component: FunctionalTimeout },
+  { title: 'Functional timeout with Ref', Component: FunctionalTimeoutWithRef },
+  { title: 'Using context with class', Component: ContextConsumer},
+  { title: 'Using context with hook', Component: UseContext},
 ]
